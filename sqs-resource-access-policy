@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1692331939445",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1692331935077",
+      "Action": [
+        "sqs:SendMessage"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:sqs:ap-south-1:11111111111:DemoS3Notification",
+      "Principal": "*"
+    }
+  ]
+}
